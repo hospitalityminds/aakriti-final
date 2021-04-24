@@ -4142,6 +4142,10 @@ a.options {
   pre {
     width: 100%;
   }
+
+  .small-number{
+    display: none!important;
+  }
 }
 /******** ie11 scroll bar fix *********/
 @-ms-viewport {
@@ -5171,8 +5175,8 @@ figure .ot-btn {
   top: 60px;
 }
 .tri3 img {
-  left: -42px;
-  transform: scale(0.9, 0.9) rotate(90deg) translateY(20px);
+  left: -12px;
+  transform: scale(0.9, 1.2) rotate(90deg) translateY(20px);
 }
 .tri4 {
   transition: all 0.8s ease-in-out;
@@ -5182,7 +5186,7 @@ figure .ot-btn {
 }
 .tri4 img {
   left: -42px;
-  transform: scale(0.8, 0.8) rotate(180deg) translateY(40px) translateX(20px);
+  transform: scale(0.9, 0.8) rotate(180deg) translateY(40px) translateX(20px);
 }
 /* Choose Us Full Width */
 .chooseus-full-width .chooseus-container {
@@ -5194,10 +5198,18 @@ figure .ot-btn {
   display: inline-block;
   float: left;
 }
+
+
+
 /* Iso Top Lastest Project */
+
+.projectContainer{
+  width: 100%;
+}
+
 .projectContainer .element-item {
-  width: 25%;
-  height: 260px;
+  width: 33.33333%;
+  height: 280px;
   position: relative;
   transform-style: preserve-3d;
 }
@@ -5332,11 +5344,15 @@ figure .ot-btn {
   padding: 0 20px;
 }
 .portfolio-grid-1-warp .portfolio-grid-1-container .element-item {
-  width: 50%;
-  padding: 0 20px;
+  width: 33.3333%;
+  padding: 0 10px;
+  height: 300px;
+  margin-bottom: 20px;
 }
+
 .portfolio-grid-1-warp .portfolio-grid-1-container .element-item .portfolio-img-demo {
   overflow: hidden;
+  height: 250px;
   display: block;
   width: 100%;
   margin-bottom: 12px;
@@ -6529,7 +6545,7 @@ ol.children {
   background-image: url("images/Overlay/2.jpg");
 }
 .section-dark-testimonials h2 {
-  color: #f5f5f5;
+  /* color: #f5f5f5; */
 }
 .section-dark-testimonials p {
   color: #ccc;
@@ -7272,8 +7288,10 @@ ol.children {
 
 /* Sub Header Protfolio Grid 1 */
 .sub-header-portfolio-grid-1 {
-  background-image: url("images/Overlay/4.jpg");
+  background-image: url("images/other/Son\ Bed-01.png");
+  background-position: 0px -200px;
 }
+
 /* Welcome Section */
 .welcome-section h1 {
   font-size: 48px;
@@ -7535,9 +7553,16 @@ ol.children {
   margin-bottom: 70px;
 }
 .sub-header-our-services {
-  background-image: url(images/Residential/06.jpg);
+  background-image: url(images/Residential/01.jpg);
   background-repeat: no-repeat;
-  background-position: 0px -260px;
+  background-position: 0px -120px;
+  background-size: cover;
+}
+
+.sub-header-our-commercial {
+  background-image: url(images/COMMERCIAL/3.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px -250px;
   background-size: cover;
 }
 
@@ -8526,9 +8551,9 @@ th.product-name {
 }
 /* Contact */
 .sub-header-contact {
-  background-image: url(images/COMMERCIAL/office/10.jpg);
+  background-image: url(images/COMMERCIAL/2.jpg);
   background-repeat: no-repeat;
-  background-position: 0px -260px;
+  background-position: 0px -370px;
   background-size: cover;
 }
 .left-contact {
@@ -10627,6 +10652,29 @@ ul.list-link-footer li:hover:before {
 
 /* **************************   Custom fonts  ************************ */
 
+
+
+/* *******  Carousel  ********* */
+
+
+.tp-bgimg{
+    filter: brightness(50%)!important;
+}
+
+
+
+.header-border{
+    border:none;
+}
+.header-bg-white{
+    background: #333;
+}
+
+.navi-level-1 > li a{
+    color: white;
+}
+
+
 .header-v1{
     display: flex;
     justify-content: space-between;
@@ -10783,10 +10831,18 @@ ul.list-link-footer li:hover:before {
 
 
 
+
+
+
+
 /* ******************  Section 4  ****************** */
 
-.section-4 {
-  padding:20px;
+
+.section-4{
+    padding: 50px 0;
+}
+.section-4 .title{
+    padding-bottom: 40px;
 }
 
 .section-4 .image-grid{
@@ -10922,4 +10978,11 @@ ul.list-link-footer li:hover:before {
 
 .sub-header-hotel{
      background-image: url(images/HOTEL/IR1A2859.jpg)
+}
+
+.sub-header-turnkey {
+  background-image: url(images/Trunkey/2.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px -100px;
+  background-size: cover;
 }

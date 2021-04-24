@@ -23,6 +23,7 @@
 		<!-- Favicons
 		  ================================================== -->
 	  	<link rel="shortcut icon" href="images/ASDI.png">
+		<link rel="stylesheet" href="css/magnific-popup.css">  
 	</head>
 	<body>
 	 	
@@ -126,6 +127,8 @@
 						<ul class="navi-level-1 sub-navi seperator-horizonal-line hover-style-4">	
 							<li class="header-tel"><a class="tel-header" href="tel:+91 99300 97161">+91 99300   97161</a>
 							</li>
+							<li class="header-tel small-number"><a class="tel-header" href="tel:+91 99300 97161">+91 99300   97161</a>
+							</li>
 
 		                    <li>
 		                    	<a href="#/"  class="mm-toggle">
@@ -134,14 +137,14 @@
 		                    </li>
 						</ul>
 
-					</div><!-- End Right Header -->	
+					</div><!-- End Right Header -->
 				</header> 
 				<!-- End  Header -->
 	
 
 
 			<section>
-				<div class="sub-header sub-header-1 sub-header-our-services fake-position">
+				<div class="sub-header sub-header-1 sub-header-our-commercial fake-position">
 					<div class="sub-header-content">
 						<h2 class="text-cap white-text">COMMERCIAL INTERIOR DESIGN</h2>
 						<ol class="breadcrumb breadcrumb-arc text-cap">
@@ -165,7 +168,6 @@
 							<ul class="sidebar-style-2">
 								<li ><a href="services_detail_1.html">Residential Design</a></li>
 								<li class="active"><a href="services_detail_1_2.html">Commercial Design</a></li>
-								<li ><a href="services_detail_1_3.html">Office Design</a></li>
                                 <li ><a href="services_detail_1_6.html">Hotel Design</a></li>
 								<li ><a href="services_detail_1_4.html">Healthcare Design</a></li>
 								<li ><a href="services_detail_1_5.html">Turnkey Interior </a></li>
@@ -198,31 +200,68 @@
 	
                 <!-- <h6 class="subtitle">Packages</h6> -->
                 <h1 class="title">We design your space</h1>
-                 <p class="para">We have customised design packages that includes interior design and execution with standard quality material and post completion warranty of <strong> 1 BHK, 2 BHK & 3 BHK in Mumbai </strong>. </p>
+                 <p class="para">We have customised design packages that includes interior design and execution with standard quality material and post completion warranty.</p>
 
 
 				 <div class="news-three">
 
 							<div class="news-1">                        
-									<img class="news-img" src="images/COMMERCIAL/office/03.jpg" alt="">   
+									<img class="news-img" src="images/COMMERCIAL/office/02.jpg" alt="">   
 									<h1 class="new-h1">OFFICE INTERIOR DESIGN</h1>
 									<p class="new-p">Office interior design planning, brand theme and concept development internal office graphics and signages.</p>
 							</div>
 
 							<div class="news-1">                        
-									<img class="news-img" src="images/COMMERCIAL/6.jpg" alt="">   
+									<img class="news-img" src="images/COMMERCIAL/5.jpg" alt="">   
 									<h1 class="new-h1">RETAIL INTERIOR DESIGN</h1>
 									<p class="new-p">Retail store design, Theme design with Visual marchandising display,  Departmental stores interior design, Spa and Salons interior design, Super markets interior design from 500 to 5000 sq ft. </p>
 							</div>
 
 							<div class="news-1">                        
-									<img class="news-img" src="images/COMMERCIAL/school.jpg" alt="">   
+									<img class="news-img" src="images/COMMERCIAL/institute.jpg" alt="">   
 									<h1 class="new-h1">INSTITUTIONAL INTERIOR DESIGN</h1>
 									<p class="new-p">Schools, Academic classes, Banks , ATMS, Kiosks design and fabrication</p>
 							</div>
                    </div>			
 				</div>
 			</section>	 
+        
+
+			<div class="section-4">
+				<div class="container">
+				   <h1 class="title">Our Portfolio</h1>
+					<div class="image-grid">
+						<a href="images/COMMERCIAL/2.jpg" title="Aakriti Interiors">
+							<img src="images/COMMERCIAL/2.jpg">
+						</a>
+						<a href="images/COMMERCIAL/office/07.jpg" title="Aakriti Interiors">
+							<img src="images/COMMERCIAL/office/07.jpg">
+						</a>
+						<a href="images/COMMERCIAL/7.jpg" title="Aakriti Interiors">
+							<img src="images/COMMERCIAL/7.jpg">
+						</a>
+						<a href="images/COMMERCIAL/office/11.jpg" title="Aakriti Interiors">
+							<img src="images/COMMERCIAL/office/11.jpg">
+						</a>
+						<a href="images/COMMERCIAL/5.jpg" title="Aakriti Interiors">
+							<img src="images/COMMERCIAL/5.jpg">
+						</a>
+						<a href="images/COMMERCIAL/1.jpg" title="Aakriti Interiors">
+							<img src="images/COMMERCIAL/1.jpg">
+						</a>
+						<a href="images/COMMERCIAL/office/12.jpg" title="Aakriti Interiors">
+							<img src="images/COMMERCIAL/office/12.jpg">
+						</a>
+						<a href="images/COMMERCIAL/6.jpg" title="Aakriti Interiors">
+							<img src="images/COMMERCIAL/6.jpg">
+						</a>
+						<a href="images/COMMERCIAL/office/03.jpg" title="Aakriti Interiors">
+							<img src="images/COMMERCIAL/office/03.jpg">
+						</a>
+					</div>
+				</div>	
+            </div>   
+
 
 	
 			<footer class="footer-v1">
@@ -307,6 +346,33 @@
 	    ================================================== --> 
 	    <script src="js/plugins/custom.js"></script>
 	</body>
+    
+		<!-- Magnific-Popup script file -->
+       <script src="js/jquery.magnific-popup.min.js"></script>
 
-<!-- Mirrored from templates.thememodern.com/architect/services_detail_1_2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Mar 2021 09:26:28 GMT -->
+	<!-- ********** Gallery images   *************** -->
+
+	<script>
+
+		$(document).ready(function() {
+		$('.image-grid').magnificPopup({
+			delegate: 'a',
+			type: 'image',
+			tLoading: 'Loading image #%curr%...',
+			mainClass: 'mfp-img-mobile',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+			},
+			image: {
+				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+				titleSrc: function(item) {
+					return item.el.attr('title') + '<small></small>';
+				}
+			}
+		});
+	});
+		
+	</script>
 </html>
