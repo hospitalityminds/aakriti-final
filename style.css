@@ -1,12 +1,25 @@
 @charset "UTF-8";
 
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
 
 :root{
-  --main-color:#f3ae36;
+  --main-color:#b784a7;
   --title-color:#fff;
-  --bold-color:#000000;
+  --bold-color:#3f3b3b;
 }
+
+
+/* 
+
+
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+
+ */
 
 /*------------------------------------------------------------------
 [Table of contents]
@@ -94,7 +107,7 @@ ul.social li.active a {
 }
 /*button*/
 .ot-btn {
-  font-size: 12px;
+  font-size: 12px!important;
   color: #333;
   height: 40px;
   line-height: 40px;
@@ -373,17 +386,19 @@ div.fancy-select ul.options li.hover {
 /* Slider
 ----------------------------------------------------------*/
 .rev_slider .heading-1 {
-  font-size: 50px!important;
+  font-size: 45px!important;
   line-height: 60px;
   letter-spacing: 3px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Poppins', sans-serif!important;
+  font-weight: 500;
 }
 .rev_slider .heading-2 {
-  font-size: 30px;
+  font-size: 26px!important;
   line-height: 50px;
   letter-spacing: 5px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 .rev_slider .heading-3 {
   font-size: 30px;
@@ -3688,7 +3703,9 @@ header .left-header .navi-level-1 li a.logo {
   display: block;
   line-height: 22px;
   font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
+  font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
   position: relative;
@@ -4687,6 +4704,13 @@ h4 mark {
 }
 /* Global
 ----------------------------------------------------------*/
+p{
+ font-family: 'Poppins', sans-serif;
+ padding-top: 5px;
+ font-size: 15px;
+ font-weight: 500;  
+}
+
 .max-height-header {
   max-height: 79px;
 }
@@ -4694,7 +4718,11 @@ h4 mark {
   color: white;
 }
 .text-cap {
+  font-size: 19px;
   text-transform: uppercase;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 600;
+
 }
 .bg-grey {
   background: #f5f5f5;
@@ -4797,7 +4825,9 @@ body {
 }
 /* Title */
 .title {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 45px;
   font-weight: 300;
   text-align: center;
 }
@@ -4974,11 +5004,14 @@ body {
 }
 .item-promotion-h5 .promotion-h5-text-box h3 {
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'IBM Plex Serif', serif;
+
 }
 .item-promotion-h5 a {
   fotn-size: 12px;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Poppins', sans-serif;
   color: #333;
   margin-top: 16px;
   display: block;
@@ -5033,7 +5066,8 @@ figure.effect-layla figcaption::after {
 figure.effect-layla h3 {
   padding-top: 20%;
   transition: transform 0.35s;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
 figure.effect-layla p {
@@ -5275,8 +5309,9 @@ figure .ot-btn {
   display: inline-block;
   position: relative;
   color: #555;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
   z-index: 9;
 }
 .project-terms a h4:before {
@@ -6548,7 +6583,7 @@ ol.children {
   /* color: #f5f5f5; */
 }
 .section-dark-testimonials p {
-  color: #ccc;
+  /* color: #ccc; */
 }
 .section-dark-testimonials span.job-testimonials {
   color: #999;
@@ -7623,6 +7658,7 @@ ul.sidebar-style-2 li a {
   line-height: 60px;
   padding: 0 15px;
   transition: all 0.1s;
+  /* font-family: 'Poppins', sans-serif!important; */
 }
 .sidebar-left ul.sidebar-style-2 li:hover {
   border-right: 4px solid var(--main-color);
@@ -10652,7 +10688,18 @@ ul.list-link-footer li:hover:before {
 
 /* **************************   Custom fonts  ************************ */
 
+span{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
 
+strong{
+  color: var(--bold-color);
+}
+
+.subtitle{
+  font-size: 18px!important;
+}
 
 /* *******  Carousel  ********* */
 
@@ -10745,9 +10792,9 @@ ul.list-link-footer li:hover:before {
 }
 
 .section-3 .para{
-    font-weight: 500;
+  font-weight: 500;
   padding:0 20px 30px;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .section-3 .category{
@@ -10766,6 +10813,7 @@ ul.list-link-footer li:hover:before {
 }
 
 .section-3 .category-block h1{
+  font-family: 'IBM Plex Serif', serif;
   margin: 0;
   padding-top: 0px;
   font-size: 50px;
@@ -10774,9 +10822,10 @@ ul.list-link-footer li:hover:before {
 
 .section-3 h2{
   font-size: 16px;
-  margin: 5px 0 15px;
+  margin: 10px 0;
   color: whitesmoke;
   font-weight: 600;
+  font-family: 'Poppins', sans-serif;
 }
 
 .section-3 .block-title{
@@ -10790,6 +10839,7 @@ ul.list-link-footer li:hover:before {
   border:2px solid white;
   border-radius: 4px;
   transition:.3s ease-in;
+  font-family: 'Poppins', sans-serif;
 }
 
 .section-3 .block-title:hover{
@@ -10900,7 +10950,7 @@ ul.list-link-footer li:hover:before {
     position: absolute;
     font-size: 24px;
     letter-spacing: -.5px;
-    text-transform: capitalize!important;
+    text-transform: capitalize;
     font-weight: 600;
     width: 280px;
     left: 50%;
@@ -10910,10 +10960,12 @@ ul.list-link-footer li:hover:before {
     color: white;
     text-align: center;
     animation-duration: 0.5s;
+    font-family: 'IBM Plex Serif', serif;
+    letter-spacing: 1px;
 }
 
 .news-1:hover .new-h1{
-    top:50%;
+    top:45%;
     transition: 0.5s;
 }
 
@@ -10923,14 +10975,15 @@ ul.list-link-footer li:hover:before {
     left: 50%;
     transition: 0.4s;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     text-align: center;
     transform: translateX(-50%);
     width: 90%;
+    font-family: 'Poppins', sans-serif;
 }
 .news-1:hover .new-p{
-    top: 64%;
+    top: 60%;
     transition: 0.5s;
 }
 
@@ -10985,4 +11038,8 @@ ul.list-link-footer li:hover:before {
   background-repeat: no-repeat;
   background-position: 0px -100px;
   background-size: cover;
+}
+
+.copyright p{
+    font-size: 12px;
 }

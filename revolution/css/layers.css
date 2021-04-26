@@ -1,18 +1,18 @@
 .tp-caption.Twitter-Content a,.tp-caption.Twitter-Content a:visited{color:#0084B4!important;}
 .tp-caption.Twitter-Content a:hover{color:#0084B4!important;text-decoration:underline!important;}
-.tp-caption.medium_grey,.medium_grey{background-color:#888;border-style:none;border-width:0;color:#fff;font-family:Arial;font-size:20px;font-weight:700;line-height:20px;margin:0;padding:2px 4px;position:absolute;text-shadow:0 2px 5px rgba(0,0,0,0.5);white-space:nowrap; }
-.tp-caption.small_text,.small_text{border-style:none;border-width:0;color:#fff;font-family:Arial;font-size:14px;font-weight:700;line-height:20px;margin:0;position:absolute;text-shadow:0 2px 5px rgba(0,0,0,0.5);white-space:nowrap;}
-.tp-caption.medium_text,.medium_text{border-style:none;border-width:0;color:#fff;font-family:Arial;font-size:20px;font-weight:700;line-height:20px;margin:0;position:absolute;text-shadow:0 2px 5px rgba(0,0,0,0.5);white-space:nowrap;}
-.tp-caption.large_text,.large_text{border-style:none;border-width:0;color:#fff;font-family:Arial;font-size:40px;font-weight:700;line-height:40px;margin:0;position:absolute;text-shadow:0 2px 5px rgba(0,0,0,0.5);white-space:nowrap;}
-.tp-caption.very_large_text,.very_large_text{border-style:none;border-width:0;color:#fff;font-family:Arial;font-size:60px;font-weight:700;letter-spacing:-2px;line-height:60px;margin:0;position:absolute;text-shadow:0 2px 5px rgba(0,0,0,0.5);white-space:nowrap;}
-.tp-caption.very_big_white,.very_big_white{background-color:#000;border-style:none;border-width:0;color:#fff;font-family:Arial;font-size:60px;font-weight:800;line-height:60px;margin:0;padding:1px 4px 0;position:absolute;text-shadow:none;white-space:nowrap;}
-.tp-caption.very_big_black,.very_big_black{background-color:#fff;border-style:none;border-width:0;color:#000;font-family:Arial;font-size:60px;font-weight:700;line-height:60px;margin:0;padding:1px 4px 0;position:absolute;text-shadow:none;white-space:nowrap;}
+.tp-caption.medium_grey,.medium_grey{background-color:#888;border-style:none;border-width:0;color:#fff;font-family: 'IBM Plex Serif', serif;font-size:20px;font-weight:700;line-height:20px;margin:0;padding:2px 4px;position:absolute;text-shadow:0 2px 5px rgba(0,0,0,0.5);white-space:nowrap; }
+.tp-caption.small_text,.small_text{border-style:none;border-width:0;color:#fff;font-family: 'IBM Plex Serif', serif;font-size:14px;font-weight:700;line-height:20px;margin:0;position:absolute;text-shadow:0 2px 5px rgba(0,0,0,0.5);white-space:nowrap;}
+.tp-caption.medium_text,.medium_text{border-style:none;border-width:0;color:#fff;font-family: 'IBM Plex Serif', serif;font-size:20px;font-weight:700;line-height:20px;margin:0;position:absolute;text-shadow:0 2px 5px rgba(0,0,0,0.5);white-space:nowrap;}
+.tp-caption.large_text,.large_text{border-style:none;border-width:0;color:#fff;font-family: 'IBM Plex Serif', serif;font-size:40px;font-weight:700;line-height:40px;margin:0;position:absolute;text-shadow:0 2px 5px rgba(0,0,0,0.5);white-space:nowrap;}
+.tp-caption.very_large_text,.very_large_text{border-style:none;border-width:0;color:#fff;font-family: 'IBM Plex Serif', serif;font-size:60px;font-weight:700;letter-spacing:-2px;line-height:60px;margin:0;position:absolute;text-shadow:0 2px 5px rgba(0,0,0,0.5);white-space:nowrap;}
+.tp-caption.very_big_white,.very_big_white{background-color:#000;border-style:none;border-width:0;color:#fff;font-family: 'IBM Plex Serif', serif;font-size:60px;font-weight:800;line-height:60px;margin:0;padding:1px 4px 0;position:absolute;text-shadow:none;white-space:nowrap;}
+.tp-caption.very_big_black,.very_big_black{background-color:#fff;border-style:none;border-width:0;color:#000;font-family: 'IBM Plex Serif', serif;font-size:60px;font-weight:700;line-height:60px;margin:0;padding:1px 4px 0;position:absolute;text-shadow:none;white-space:nowrap;}
 .tp-caption.modern_medium_fat,.modern_medium_fat{border-style:none;border-width:0;color:#000;font-family:"Open Sans", sans-serif;font-size:24px;font-weight:800;line-height:20px;margin:0;position:absolute;text-shadow:none;white-space:nowrap;}
 .tp-caption.modern_medium_fat_white,.modern_medium_fat_white{border-style:none;border-width:0;color:#fff;font-family:"Open Sans", sans-serif;font-size:24px;font-weight:800;line-height:20px;margin:0;position:absolute;text-shadow:none;white-space:nowrap;}
 .tp-caption.modern_medium_light,.modern_medium_light{border-style:none;border-width:0;color:#000;font-family:"Open Sans", sans-serif;font-size:24px;font-weight:300;line-height:20px;margin:0;position:absolute;text-shadow:none;white-space:nowrap;}
 .tp-caption.modern_big_bluebg,.modern_big_bluebg{background-color:#4e5b6c;border-style:none;border-width:0;color:#fff;font-family:"Open Sans", sans-serif;font-size:30px;font-weight:800;letter-spacing:0;line-height:36px;margin:0;padding:3px 10px;position:absolute;text-shadow:none;}
 .tp-caption.modern_big_redbg,.modern_big_redbg{background-color:#de543e;border-style:none;border-width:0;color:#fff;font-family:"Open Sans", sans-serif;font-size:30px;font-weight:300;letter-spacing:0;line-height:36px;margin:0;padding:1px 10px 3px;position:absolute;text-shadow:none;}
-.tp-caption.modern_small_text_dark,.modern_small_text_dark{border-style:none;border-width:0;color:#555;font-family:Arial;font-size:14px;line-height:22px;margin:0;position:absolute;text-shadow:none;white-space:nowrap;}
+.tp-caption.modern_small_text_dark,.modern_small_text_dark{border-style:none;border-width:0;color:#555;font-family: 'IBM Plex Serif', serif;font-size:14px;line-height:22px;margin:0;position:absolute;text-shadow:none;white-space:nowrap;}
 .tp-caption.boxshadow,.boxshadow{-moz-box-shadow:0 0 20px rgba(0,0,0,0.5);-webkit-box-shadow:0 0 20px rgba(0,0,0,0.5);box-shadow:0 0 20px rgba(0,0,0,0.5);}
 .tp-caption.black,.black{color:#000;text-shadow:none;}
 .tp-caption.noshadow,.noshadow{text-shadow:none;}
@@ -22,7 +22,7 @@
 .tp-caption.largepinkbg,.largepinkbg{-moz-border-radius:0;-webkit-border-radius:0;background-color:#db4360;border-radius:0;color:#fff;font-family:"Open Sans";font-size:50px;font-weight:300;line-height:70px;padding:0 20px;position:absolute;text-shadow:none;}
 .tp-caption.largewhitebg,.largewhitebg{-moz-border-radius:0;-webkit-border-radius:0;background-color:#fff;border-radius:0;color:#000;font-family:"Open Sans";font-size:50px;font-weight:300;line-height:70px;padding:0 20px;position:absolute;text-shadow:none;}
 .tp-caption.largegreenbg,.largegreenbg{-moz-border-radius:0;-webkit-border-radius:0;background-color:#67ae73;border-radius:0;color:#fff;font-family:"Open Sans";font-size:50px;font-weight:300;line-height:70px;padding:0 20px;position:absolute;text-shadow:none;}
-.tp-caption.excerpt,.excerpt{background-color:rgba(0,0,0,1);border-color:#fff;border-style:none;border-width:0;color:#fff;font-family:Arial;font-size:36px;font-weight:700;height:auto;letter-spacing:-1.5px;line-height:36px;margin:0;padding:1px 4px 0;text-decoration:none;text-shadow:none;white-space:normal!important;width:150px;}
+.tp-caption.excerpt,.excerpt{background-color:rgba(0,0,0,1);border-color:#fff;border-style:none;border-width:0;color:#fff;font-family: 'IBM Plex Serif', serif;font-size:36px;font-weight:700;height:auto;letter-spacing:-1.5px;line-height:36px;margin:0;padding:1px 4px 0;text-decoration:none;text-shadow:none;white-space:normal!important;width:150px;}
 .tp-caption.large_bold_grey,.large_bold_grey{background-color:transparent;border-color:#ffd658;border-style:none;border-width:0;color:#666;font-family:"Open Sans";font-size:60px;font-weight:800;line-height:60px;margin:0;padding:1px 4px 0;text-decoration:none;text-shadow:none;}
 .tp-caption.medium_thin_grey,.medium_thin_grey{background-color:transparent;border-color:#ffd658;border-style:none;border-width:0;color:#666;font-family:"Open Sans";font-size:34px;font-weight:300;line-height:30px;margin:0;padding:1px 4px 0;text-decoration:none;text-shadow:none;}
 .tp-caption.small_thin_grey,.small_thin_grey{background-color:transparent;border-color:#ffd658;border-style:none;border-width:0;color:#757575;font-family:"Open Sans";font-size:18px;font-weight:300;line-height:26px;margin:0;padding:1px 4px 0;text-decoration:none;text-shadow:none;}
@@ -90,7 +90,7 @@
 .tp-caption.Photography-Menuitem:hover,.Photography-Menuitem:hover{background-color:rgba(0,255,222,0.65);border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:rgba(255,255,255,1.00);text-decoration:none;}
 .tp-caption.Photography-Textblock,.Photography-Textblock{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:rgba(255,255,255,1.00);font-family:Raleway;font-size:17px;font-style:normal;font-weight:300;letter-spacing:2px;line-height:30px;padding:0;text-decoration:none;}
 .tp-caption.Photography-Subline-2,.Photography-Subline-2{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:rgba(255,255,255,0.35);font-family:Raleway;font-size:20px;font-style:normal;font-weight:300;letter-spacing:3px;line-height:30px;padding:0;text-decoration:none;}
-.tp-caption.Photography-ImageHover2,.Photography-ImageHover2{background-color:transparent;border-color:rgba(255,255,255,0);border-radius:0 0 0 0;border-style:none;border-width:0;color:rgba(255,255,255,1.00);font-family:Arial;font-size:20px;font-style:normal;font-weight:400;line-height:22;padding:0;text-decoration:none;}
+.tp-caption.Photography-ImageHover2,.Photography-ImageHover2{background-color:transparent;border-color:rgba(255,255,255,0);border-radius:0 0 0 0;border-style:none;border-width:0;color:rgba(255,255,255,1.00);font-family: 'IBM Plex Serif', serif;font-size:20px;font-style:normal;font-weight:400;line-height:22;padding:0;text-decoration:none;}
 .tp-caption.Photography-ImageHover2:hover,.Photography-ImageHover2:hover{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:rgba(255,255,255,1.00);text-decoration:none;}
 .tp-caption.WebProduct-Title,.WebProduct-Title{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:rgba(51,51,51,1.00);font-family:Raleway;font-size:90px;font-style:normal;font-weight:100;line-height:90px;padding:0;text-decoration:none;}
 .tp-caption.WebProduct-SubTitle,.WebProduct-SubTitle{background-color:transparent;border-color:transparent;border-radius:0 0 0 0;border-style:none;border-width:0;color:rgba(153,153,153,1.00);font-family:Raleway;font-size:15px;font-style:normal;font-weight:400;line-height:20px;padding:0;text-decoration:none;}
@@ -362,7 +362,7 @@
 .tp-caption.Dining-Social:hover,
 .Dining-Social:hover{color:rgba(255, 255, 255, 1.00);text-decoration:none;background-color:transparent;border-color:rgba(255, 255, 255, 1.00);border-style:solid;border-width:1px;border-radius:30px 30px 30px 30px;cursor:pointer}
 tp-caption.Team-Thumb,
-.Team-Thumb{color:rgba(255, 255, 255, 1.00);font-size:20px;line-height:22px;font-weight:400;font-style:normal;font-family:Arial;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:left}
+.Team-Thumb{color:rgba(255, 255, 255, 1.00);font-size:20px;line-height:22px;font-weight:400;font-style:normal;font-family: 'IBM Plex Serif', serif;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:left}
 .tp-caption.Team-Thumb:hover,
 .Team-Thumb:hover{color:rgba(255, 255, 255, 1.00);text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;cursor:pointer}
 .tp-caption.Team-Name,
@@ -372,7 +372,7 @@ tp-caption.Team-Thumb,
 .tp-caption.Team-Description,
 .Team-Description{color:rgba(255, 255, 255, 1.00);font-size:18px;line-height:28px;font-weight:400;font-style:normal;font-family:Roboto;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:left}
 .tp-caption.Team-Social,
-.Team-Social{color:rgba(255, 255, 255, 1.00);font-size:50px;line-height:50px;font-weight:400;font-style:normal;font-family:Arial;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:center}
+.Team-Social{color:rgba(255, 255, 255, 1.00);font-size:50px;line-height:50px;font-weight:400;font-style:normal;font-family: 'IBM Plex Serif', serif;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:center}
 .tp-caption.Team-Social:hover,
 .Team-Social:hover{color:rgba(255, 255, 255, 1.00);text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px;cursor:pointer}
 .tp-caption.VideoControls-Play,
@@ -384,7 +384,7 @@ tp-caption.Team-Thumb,
 .tp-caption.VideoPlayer-SubTitle,
 .VideoPlayer-SubTitle{color:rgba(255, 255, 255, 1.00);font-size:20px;line-height:20px;font-weight:400;font-style:italic;font-family:Georgia, serif;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:center}
 .tp-caption.VideoPlayer-Social,
-.VideoPlayer-Social{color:rgba(255, 255, 255, 1.00);font-size:50px;line-height:50px;font-weight:400;font-style:normal;font-family:Arial;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:center}
+.VideoPlayer-Social{color:rgba(255, 255, 255, 1.00);font-size:50px;line-height:50px;font-weight:400;font-style:normal;font-family: 'IBM Plex Serif', serif;padding:0 0 0 0px;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:center}
 .tp-caption.VideoPlayer-Social:hover,
 .VideoPlayer-Social:hover{color:rgba(255, 255, 255, 1.00);text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px;cursor:pointer}
 .tp-caption.VideoControls-Mute,
@@ -405,7 +405,7 @@ tp-caption.Team-Thumb,
 .tp-caption.SleekLanding-BottomText,
 .SleekLanding-BottomText{color:rgba(255, 255, 255, 1.00);font-size:15px;line-height:24px;font-weight:400;font-style:normal;font-family:Lato;padding:0 0 0 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:left}
 .tp-caption.SleekLanding-Social,
-.SleekLanding-Social{color:rgba(255, 255, 255, 1.00);font-size:22px;line-height:30px;font-weight:400;font-style:normal;font-family:Arial;padding:0 0 0 0px;text-decoration:none;text-align:center;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:center}
+.SleekLanding-Social{color:rgba(255, 255, 255, 1.00);font-size:22px;line-height:30px;font-weight:400;font-style:normal;font-family: 'IBM Plex Serif', serif;padding:0 0 0 0px;text-decoration:none;text-align:center;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:center}
 .tp-caption.SleekLanding-Social:hover,
 .SleekLanding-Social:hover{color:rgba(0, 0, 0, 0.25);text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;cursor:pointer}
 #rev_slider_429_1_wrapper .tp-loader.spinner2{background-color:#555555 !important;}
@@ -484,6 +484,6 @@ tp-caption.Team-Thumb,
 .tp-caption.Agency-ArrowTooltip,
 .Agency-ArrowTooltip{color:rgba(51, 51, 51, 1.00);font-size:15px;line-height:20px;font-weight:400;font-style:normal;font-family:Permanent Marker;padding:0 0 0 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:left}
 .tp-caption.Agency-SmallSocial,
-.Agency-SmallSocial{color:rgba(255, 255, 255, 1.00);font-size:30px;line-height:30px;font-weight:400;font-style:normal;font-family:Arial;padding:0 0 0 0px;text-decoration:none;text-align:center;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:center}
+.Agency-SmallSocial{color:rgba(255, 255, 255, 1.00);font-size:30px;line-height:30px;font-weight:400;font-style:normal;font-family: 'IBM Plex Serif', serif;padding:0 0 0 0px;text-decoration:none;text-align:center;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;text-align:center}
 .tp-caption.Agency-SmallSocial:hover,
 .Agency-SmallSocial:hover{color:rgba(51, 51, 51, 1.00);text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px;cursor:pointer}
