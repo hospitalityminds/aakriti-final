@@ -7601,6 +7601,13 @@ ol.children {
   background-size: cover;
 }
 
+.sub-header-healthcare {
+  background-image: url(images/HealthCare/3.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px -340px;
+  background-size: cover;
+}
+
 /* .sub-header-our-services-2 {
   background-image: url(images/Overlay/11.jpg);
 } */
@@ -11050,4 +11057,26 @@ strong{
    .title {
      font-size: 30px;
    }
+
+   .sub-header-our-services {
+    background-position: -500px -150px;
+  }
+
+  .sub-header-our-commercial {
+    background-position: -350px -250px;
+  }
+
+  .sub-header-healthcare {
+    background-position: -200px -150px;
+  }
+
+  .sub-header-turf {
+    background-position: -200px -200px;
+  }
+
+
+.sub-header-turnkey {
+  background-position: -240px -100px;
+}
+
 }
