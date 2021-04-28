@@ -8657,6 +8657,11 @@ ul.address li {
   width: 100%;
   margin-bottom: 17px;
 }
+
+ul.address li span{
+  padding-left: 10px;
+}
+
 #map-canvas {
   height: 404px;
 }
