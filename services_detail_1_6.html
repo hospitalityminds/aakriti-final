@@ -43,6 +43,7 @@
 	              <ul>
 	                  		<li><a href="index.html"><i class="icon-home"></i> Home</a></li>                
 	                  		<li><a href="servicesList.html"><span>Services</span></a></li>
+							<li><a href="NRI-service.html"><span>NRI Services</span></a></li>
 	                       	<li><a href="about.html"><span>About Us </span></a></li>
 	                        <li><a href="contact.html"><span>Contact Us</span></a>
 	                        </li>
@@ -117,6 +118,7 @@
 	                        <!-- <li class="has-sub"><a href="portfolioGrid_1.html"><span>Projects</span></a></li> -->
 
 	                        <li class="has-sub"><a href="servicesList.html"><span>Services</span></a></li>
+							<li class="has-sub"><a href="NRI-service.html"><span>NRI Services</span></a></li>
 
 	                       	<li><a href="about.html"><span>About Us </span></a></li>
 
@@ -167,10 +169,11 @@
 							<ul class="sidebar-style-2">
 								<li ><a href="services_detail_1.html">Residential Design</a></li>
 								<li ><a href="services_detail_1_2.html">Commercial Design</a></li>
-                                <li class="active"><a href="services_detail_1_6.html">Hotel Design</a></li>
+                                <li class="active" ><a href="services_detail_1_6.html">Hotel Design</a></li>
 								<li ><a href="services_detail_1_4.html">Healthcare Design</a></li>
 								<li ><a href="services_detail_1_5.html">Turnkey Interior </a></li>
 								<li ><a href="services_detail_1_7.html">Turf Design</a></li>
+                                <li ><a href="NRI-service.html">NRI Servicess</a></li>
                             </ul>
 
 						</div>
@@ -248,6 +251,9 @@
 								<a class="text-cap" href="services-detail.html">Services</a>
 							</li>
 							<li>
+								<a class="text-cap" href="NRI-service.html">NRI Services</a>
+							</li>
+							<li>
 								<a class="text-cap" href="about.html">About Us</a>
 							</li>
 							<li>
@@ -297,18 +303,6 @@
 	     <!-- PreLoad
 	    ================================================== --> 
 	    <script type="text/javascript" src="js/plugins/royal_preloader.min.js"></script>
-		<script type="text/javascript">
-		(function($) { "use strict";
-		            Royal_Preloader.config({
-		                mode:           'logo', // 'number', "text" or "logo"
-		                logo:           'images/logo.png',
-		                timeout:       1,
-		                showInfo:       false,
-		                opacity:        1,
-		                background:     ['#FFFFFF']
-		            });
-		})(jQuery);
-		</script>
 
 	 	<!-- Global Js
 	    ================================================== --> 
@@ -318,31 +312,7 @@
 		<!-- Magnific-Popup script file -->
        <script src="js/jquery.magnific-popup.min.js"></script>
 
-	<!-- ********** Gallery images   *************** -->
-
-	<script>
-
-		$(document).ready(function() {
-		$('.image-grid').magnificPopup({
-			delegate: 'a',
-			type: 'image',
-			tLoading: 'Loading image #%curr%...',
-			mainClass: 'mfp-img-mobile',
-			gallery: {
-				enabled: true,
-				navigateByImgClick: true,
-				preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-			},
-			image: {
-				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-				titleSrc: function(item) {
-					return item.el.attr('title') + '<small></small>';
-				}
-			}
-		});
-	});
-		
-	</script>
+	  <script src="js/main.js"></script>
 
 	</body>
 
