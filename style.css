@@ -11175,6 +11175,32 @@ span{
      width: 100%;
       height: auto;
   } 
+
+  .sub-header-our-services {
+    background-position: -500px -120px;
+  }
+
+  .sub-header-our-residential {
+  background-position: -270px -170px;
+}
+
+.sub-header-our-commercial {
+  background-position: -230px -170px;
+}
+
+ .sub-header-healthcare {
+    background-position: -200px -220px;
+  }
+
+    .sub-header-turf {
+    background-position: -270px -120px;
+  }
+
+
+.sub-header-turnkey {
+  background-position: -500px -120px;
+}
+
 }
 
 
@@ -11194,15 +11220,6 @@ span{
   .sub-header-healthcare {
     background-position: -100px -100px;
   }
-
-  .sub-header-turf {
-    background-position: -270px -120px;
-  }
-
-
-.sub-header-turnkey {
-  background-position: -500px -120px;
-}
 
 }
 
@@ -11405,6 +11422,18 @@ span{
     bottom: 20px;
     right: 20px;
   }
+
+  .sub-header-contact {
+    background-repeat: no-repeat;
+    background-position: -550px -200px;
+    background-size: cover; 
+ }
+
+ .sub-header-about {
+  background-position: 0px 0px;
+  background-size: cover; 
+}
+
 }
 
 
