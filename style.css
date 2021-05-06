@@ -5718,7 +5718,7 @@ figure .ot-btn {
 .box-content-overlay-3 .btn-sub-color {
   position: static;
   transform: none;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 /* Blog  Lastest From News */
 .lastest-blog-container {
@@ -11201,6 +11201,10 @@ span{
   background-position: -500px -120px;
 }
 
+.quote h1{
+  font-size: 20px!important;
+}
+
 }
 
 
@@ -11443,7 +11447,6 @@ span{
 /* ***********************  Quote start   ****************** */
 
 .quote{
-    text-align: center;
     position: relative;
     padding:20px 20px 0;
     max-width: 1000px;
@@ -11471,27 +11474,34 @@ span{
 
 .quote h1{
     text-align: center;
-    font-size: 20px;
+    font-size: 38px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: -.2px;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.quote .author{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .quote h2{
-    text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     font-family: 'Lora', serif;
     letter-spacing: -.1px;
     position: relative;
     display: inline-block;
+    height: auto;
+    margin-top: -10px;
+    margin-right: 130px;
 }
 
 .quote h2:before{
     content: '';
     position: absolute;
-    top: 10px;
-    left:-10px;
+    top: 24px;
+    left:-13px;
     width: 40px;
     height: 2px;
     background: var(--bold-color);
@@ -11502,8 +11512,8 @@ span{
 .quote h2:after{
     content: '';
     position: absolute;
-    top: 10px;
-    right:-10px;
+    top: 24px;
+    right:-13px;
     width: 40px;
     height: 2px;
     background: var(--bold-color);
@@ -11531,6 +11541,14 @@ span{
 
 
 
+.nri-content{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif!important;
+    letter-spacing: -0.1px;
+    opacity: .9;
+}
 
 
 /* *************************   awards carousel  **************************** */
@@ -11554,9 +11572,11 @@ span{
     /* display: none; */
 }
 
-.awards-carousel .hotel{
+.awards-carousel .hotel,
+.awards-carousel .trophy{
   object-fit: cover;
 }
+
 
 @keyframes zoom-out{
     100%{
