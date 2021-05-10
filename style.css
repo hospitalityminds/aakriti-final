@@ -7614,7 +7614,7 @@ ol.children {
 .sub-header-healthcare {
   background-image: url(images/HealthCare/3.jpg);
   background-repeat: no-repeat;
-  background-position: 0px -340px;
+  background-position: 0px -180px;
   background-size: cover;
 }
 
@@ -11179,19 +11179,20 @@ span{
   }
 
   .sub-header-our-residential {
-  background-position: -270px -170px;
+  background-position: 0px -120px;
 }
 
+
 .sub-header-our-commercial {
-  background-position: -230px -170px;
+  background-position: 0px -100px;
 }
 
  .sub-header-healthcare {
-    background-position: -200px -220px;
+    background-position: 0px -100px;
   }
 
-    .sub-header-turf {
-    background-position: -270px -120px;
+  .sub-header-turf {
+    background-position: 0 -100px;
   }
 
 
@@ -11205,25 +11206,6 @@ span{
 
 }
 
-
-@media (max-width:450px){
-   .title {
-     font-size: 30px;
-   }
-
-   .sub-header-our-services {
-    background-position: -580px -150px;
-  }
-
-  .sub-header-our-commercial {
-    background-position: -350px -160px;
-  }
-
-  .sub-header-healthcare {
-    background-position: -100px -100px;
-  }
-
-}
 
 
 .blink{
@@ -11418,6 +11400,9 @@ span{
 }
 
 
+
+
+
 @media (max-width:768px){
   
   #mybtn{
@@ -11427,15 +11412,18 @@ span{
 
   .sub-header-contact {
     background-repeat: no-repeat;
-    background-position: -550px -200px;
+    background-position: -450px -150px;
     background-size: cover; 
- }
+  }
 
- .sub-header-about {
-  background-position: 0px 0px;
-  background-size: cover; 
-}
+  .sub-header-about {
+    background-position: 0px 0px;
+    background-size: cover; 
+  }
 
+  .sub-header-our-residential {
+      background-position: -160px -120px;
+  }
 }
 
 
@@ -11518,6 +11506,19 @@ span{
     transform: translateX(100%);
     opacity: .8;
 }
+
+
+
+.residential-block .para{
+    padding-top: 15px;
+    line-height: 25px;
+}
+
+.nri-block .para{
+    padding: 0 5px ;
+    line-height: 22px;
+}
+
 
 .section .strong{
     padding-top: 50px;
@@ -11669,3 +11670,39 @@ span{
         z-index: 1000;
     }
 } 
+
+
+@media (max-width:500px){
+   .title {
+     font-size: 30px;
+   }
+
+  .sub-header-nri{
+     background-position: -250px -80px;
+  }
+
+   .sub-header-our-services {
+    background-position: -420px -100px;
+  }
+
+  .sub-header-our-commercial {
+    background-position: -150px -100px;
+  }
+
+  .sub-header-healthcare {
+    background-position:-180px -80px;
+  }
+
+  .sub-header-portfolio-grid-1 {
+    background-position: -280px -80px;
+  }
+
+  .sub-header-contact{
+    background-position:-400px -100px;
+  }
+
+   .sub-header-turf {
+    background-position: -150px -100px;
+  }
+
+}
