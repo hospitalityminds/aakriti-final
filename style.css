@@ -5387,7 +5387,6 @@ figure .ot-btn {
   height: 250px;
   display: block;
   width: 100%;
-  margin-bottom: 12px;
 }
 .portfolio-grid-1-warp .portfolio-grid-1-container .element-item img {
   transition: all 0.6s ease 0s;
@@ -7590,38 +7589,38 @@ ol.children {
 .service-item {
   margin-bottom: 70px;
 }
+
+
 .sub-header-our-services {
-  background-image: url(images/Residential/01.jpg);
+  background: url(images/Residential/01.jpg) ;
   background-repeat: no-repeat;
-  background-position: 0px -120px;
-  background-size: cover;
+  background-position: 0px -170px;
+  background-size: 100%;
+  position: relative;
+
+
 }
 
 .sub-header-our-residential {
-  background-image: url(images/Residential/Bed-1.jpg);
+  background: url(images/Residential/Bed-1.jpg);
   background-repeat: no-repeat;
-  background-position: 0px -230px;
+  background-position: 0px -330px;
   background-size: cover;
 }
 
 .sub-header-our-commercial {
-  background-image: url(images/COMMERCIAL/2.jpg);
+  background: url(images/COMMERCIAL/2.jpg);
   background-repeat: no-repeat;
-  background-position: 0px -380px;
-  background-size: cover;
+  background-position: 0px -420px;
+  background-size: 100%;
 }
 
 .sub-header-healthcare {
-  background-image: url(images/HealthCare/3.jpg);
-  background-repeat: no-repeat;
-  background-position: 0px -180px;
-  background-size: cover;
+  background: url(images/HealthCare/3.jpg) no-repeat;
+  background-position: 0px -250px;
+  background-size: 100%;
 }
 
-/* .sub-header-our-services-2 {
-  background-image: url(images/Overlay/11.jpg);
-} */
-/* Services Detail */
 
 .sidebar-services {
   width: 290px;
@@ -8602,14 +8601,18 @@ th.product-name {
 .item-testimonials-about p {
   margin-bottom: 30px;
 }
+
+
 /* Contact */
 .sub-header-contact {
-  width: 100%;
-  background-image: url(images/other/Lounge.jpg);
+  background: url(images/other/Lounge.jpg);
   background-repeat: no-repeat;
-  background-position: 0px -200px;
-  background-size: 100% 100%;
+  background-position: 0 -300px;
+  background-size: 100%;
+  position: relative;
 }
+
+
 .left-contact {
   padding-right: 15px;
 }
@@ -9900,14 +9903,14 @@ ul.list-link-footer li:hover:before {
   .projectContainer .element-item .project-info {
     position: static;
     width: 100%;
-    min-height: 80px;
+    min-height: auto;
     padding: 10px 0;
     opacity: 1;
     transition: none;
     float: left;
-    display: inline-block;
+    display: none!important;
     background: #000!important;
-    height: 101px;
+    /* height: 101px; */
   }
   .projectContainer .element-item .project-info a {
     transform: none;
@@ -11118,10 +11121,10 @@ span{
 
 
 .sub-header-turf {
-  background-image: url(images/TURF/1.jpg);
+  background: url(images/TURF/1.jpg) no-repeat;
   background-repeat: no-repeat;
-  background-position: 0px -260px;
-  background-size: cover;
+  background-position: 0px -350px;
+  background-size: 100%;
 }
 
 .sub-header-hotel{
@@ -11129,10 +11132,10 @@ span{
 }
 
 .sub-header-turnkey {
-  background-image: url(images/Trunkey/2.jpg);
+  background: url(images/Trunkey/2.jpg);
   background-repeat: no-repeat;
-  background-position: 0px -100px;
-  background-size: cover;
+  background-position: 0px -250px;
+  background-size: 100%;
 }
 
 .copyright p{
@@ -11151,61 +11154,6 @@ span{
 }
 
 
-
-
-@media (max-width:768px){
-
-  #royal_preloader {
-  width: 100%;
-  height:100vh;
-}
-
-  .right-header{
-    display: flex;
-    align-items: center;
-  }
-
-  .right-header .icon_menu{
-    color: var(--title-color);
-  }
-
-      
-  .service-item .img-block img{
-     width: 100%;
-      height: auto;
-  } 
-
-  .sub-header-our-services {
-    background-position: -500px -120px;
-  }
-
-  .sub-header-our-residential {
-  background-position: 0px -120px;
-}
-
-
-.sub-header-our-commercial {
-  background-position: 0px -100px;
-}
-
- .sub-header-healthcare {
-    background-position: 0px -100px;
-  }
-
-  .sub-header-turf {
-    background-position: 0 -100px;
-  }
-
-
-.sub-header-turnkey {
-  background-position: -500px -120px;
-}
-
-.quote h1{
-  font-size: 20px!important;
-}
-
-}
 
 
 
@@ -11500,10 +11448,12 @@ span{
 }
 
 .sub-header-nri{
-  background-image: url(images/other/11.png);
-  background-repeat: no-repeat;
-  background-position: 0px -100px;
-  background-size: cover;
+  background: url("images/other/11.png") no-repeat;
+  background-position: 0px -150px;
+  background-size: 100%;
+  position: relative;
+
+
 }
 
 .about-intro .text-cap{
@@ -11647,7 +11597,6 @@ span{
 
 
 
-
 @media (max-width:768px){
   
   #mybtn{
@@ -11655,23 +11604,55 @@ span{
     right: 20px;
   }
 
-  .sub-header-contact {
-    background-position: -200px -100px;
-    background-size: cover; 
-  }
-
-  .sub-header-about {
+  .sub-header-about,
+  .sub-header-contact,
+  .sub-header-our-services,
+  .sub-header-nri,
+  .sub-header-our-commercial,
+  .sub-header-healthcare,
+  .sub-header-turnkey{
     background-position: 0px 0px;
     background-size: cover; 
   }
 
+  .sub-header-turf {
+    background-size: cover;
+    background-position: 0 0px;
+  }
+
   .sub-header-our-residential {
-      background-position: -160px -120px;
+    background-size: cover; 
+      background-position: 0px 0px;
   }
 
    .sub-header-portfolio-grid-1 {
     background-position: -280px -150px;
   }
+
+  
+  #royal_preloader {
+  width: 100%;
+  height:100vh;
+}
+
+  .right-header{
+    display: flex;
+    align-items: center;
+  }
+
+  .right-header .icon_menu{
+    color: var(--title-color);
+  }
+
+      
+  .service-item .img-block img{
+     width: 100%;
+      height: auto;
+  } 
+
+.quote h1{
+  font-size: 20px!important;
+}
 
 }
 
@@ -11682,52 +11663,33 @@ span{
      font-size: 30px;
    }
 
-  .sub-header-nri{
-     background-position: -250px -80px;
+    .sub-header-our-services {
+    background-position: -150px 0px;
   }
 
-  .sub-header-our-residential {
-      background-position: -290px -180px;
-  }
-
-  .sub-header-our-commercial {
-    background-position: -220px -150px;
-  }
-
-  .sub-header-healthcare {
+  /* .sub-header-healthcare {
     background-position:-230px -150px;
-  }
+  } */
 
   .sub-header-portfolio-grid-1 {
     background-position: -350px -120px;
   }
 
   .sub-header-contact{
-    background-position:-500px -200px;
+        background-position: -150px 0px;
   }
 
    .sub-header-turf {
-    background-position: -220px -220px;
+    background-position: 0 0px;
   }
 
-}
-
-@media (max-width:450px){
-
-  .sub-header-healthcare {
-    background-position:-290px -150px;
-  }
-
-   .sub-header-our-services {
-    background-position: -550px -150px;
-  }
 }
 
 
 @media (max-width:380px){
 
      .sub-header-contact{
-    background-position: -550px -200px;
+    /* background-position: -550px -200px; */
     background-size: cover;
   }
 
@@ -11736,11 +11698,7 @@ span{
   }
 
   .sub-header-healthcare {
-    background-position:-310px -150px;
-  }
-
-   .sub-header-turf {
-    background-position: -270px -220px;
+    background-position:-100px 0px;
   }
 
    .sub-header-portfolio-grid-1 {
