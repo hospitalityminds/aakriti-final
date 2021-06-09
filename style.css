@@ -10318,7 +10318,7 @@ ul.list-link-footer li:hover:before {
   }
   /* Block Img Full */
   .block-img-full {
-    padding: 0 15px;
+    /* padding: 0 15px; */
     margin-bottom: 25px;
   }
   /* Block Img Full Width home 3 */
@@ -10582,7 +10582,9 @@ ul.list-link-footer li:hover:before {
     width: calc(100% - 30px);
     margin: 10px auto;
     float: none;
+    height: 230px;
   }
+
   .block-img-left .text-box {
     width: 100%;
     padding: 15px;
@@ -10592,6 +10594,7 @@ ul.list-link-footer li:hover:before {
     width: calc(100% - 30px);
     margin: 10px auto;
     float: none;
+    height: 230px;
   }
   .block-img-left,
   .block-img-right {
@@ -10685,6 +10688,17 @@ ul.list-link-footer li:hover:before {
     height: auto;
     min-height: 100%;
   }
+
+
+  .block-img-full .img-block{
+    height: 220px;
+  }
+
+  .service-item .img-block img{
+    height: 100%!important;
+  }
+
+
 }
 /* Smallest Devices, Phones */
 @media only screen and (max-width: 319px) {
@@ -11683,6 +11697,15 @@ span{
     background-position: 0 0px;
   }
 
+  .awards-carousel{
+    height: 300px;
+  }
+
+  .section-4 .image-grid img{
+    height: 250px;
+    box-shadow: none;
+  }
+
 }
 
 
@@ -11705,5 +11728,16 @@ span{
     background-position: -400px -120px;
   }
 
+  .awards-carousel{
+    height: 280px;
+  }
+  
+}
 
+
+@media (max-width:350px){
+
+  .awards-carousel{
+    height: 250px;
+  }
 }
