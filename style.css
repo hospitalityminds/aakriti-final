@@ -5292,6 +5292,14 @@ figure .ot-btn {
   height: 100%;
 }
 
+@media(max-width:500px){
+  .projectContainer .element-item img{
+    max-width: 300px;
+    height:250px;
+    margin: 10px;
+  }
+}
+
 .project-terms {
   text-align: center;
   margin-top: 5px;
@@ -8570,9 +8578,9 @@ th.product-name {
 }
 /* About */
 .sub-header-about {
-  background: url("images/other/Son\ Bed-01.png") ;
+  background: url("images/other/Son\ Bed-01.jpg") ;
   background-repeat: no-repeat;
-  background-position: 0px -300px;
+  background-position: 0px -150px;
   background-size: 100%;
   position: relative;
 }
@@ -9640,6 +9648,10 @@ ul.list-link-footer li:hover:before {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 991px) {
   /* LAYOUT */
+
+.sub-header-nri{
+  background-position: 0px -0px;
+}
   .divider {
     width: 90%;
   }
@@ -9865,6 +9877,15 @@ ul.list-link-footer li:hover:before {
   .fake-position {
     margin-top: 60px;
   }
+  .sub-header-about {
+    background-position: 0px -110px;
+  }  
+
+  .sub-header-our-services {
+    background-position: 0px -110px;
+  } 
+
+  
   /* What We Do 4 Colum Home 2*/
   .block-img-full .img-block {
     height: auto;
@@ -10437,6 +10458,7 @@ ul.list-link-footer li:hover:before {
   /* Reset */
   body {
     font-size: 14px;
+    max-width: 320px;
   }
   h1 {
     font-size: 30px;
@@ -11629,6 +11651,10 @@ span{
     background-size: cover; 
   }
 
+  .sub-header-nri{
+    background: url(images/other/11.5.jpg);
+  }
+
   .sub-header-turf {
     background-size: cover;
     background-position: 0 0px;
@@ -11702,11 +11728,14 @@ span{
   }
 
   .section-4 .image-grid img{
-    height: 250px;
+    height: auto;
     box-shadow: none;
+    display: block;
+    max-width: 450px;
   }
 
 }
+
 
 
 @media (max-width:380px){
@@ -11717,7 +11746,7 @@ span{
   }
 
     .sub-header-nri{
-     background-position: -350px -80px;
+     background-position: -10px -10px;
   }
 
   .sub-header-healthcare {
