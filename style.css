@@ -10557,7 +10557,7 @@ ul.list-link-footer li:hover:before {
   }
   /* SLIDER */
   .slider-home-1 .heading-1 {
-    font-size: 24px!important;
+    font-size: 20px!important;
   }
   .slider-home-1 .heading-2 {
     font-size: 18px!important;
@@ -11731,7 +11731,7 @@ span{
     height: auto;
     box-shadow: none;
     display: block;
-    max-width: 450px;
+    max-width: 320px;
   }
 
 }
