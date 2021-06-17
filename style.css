@@ -10458,7 +10458,7 @@ ul.list-link-footer li:hover:before {
   /* Reset */
   body {
     font-size: 14px;
-    max-width: 320px;
+    /* max-width: 320px; */
   }
   h1 {
     font-size: 30px;
