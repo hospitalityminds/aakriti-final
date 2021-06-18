@@ -10845,7 +10845,7 @@ span{
 
 .right-header .navi-level-1 li a{
     padding: 0;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 .right-header .navi-level-1 > li > a::after{
