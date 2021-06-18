@@ -10783,9 +10783,9 @@ span{
 .header-bg-white{
     background: #333;
 }
-@media screen and (max-width:500px){
+@media  (orientation:landscape){
   .header-bg-white{
-    height: 50px;
+    height: 10px;
 }
 }
 
