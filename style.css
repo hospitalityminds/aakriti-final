@@ -10783,7 +10783,7 @@ span{
 .header-bg-white{
     background: #333;
 }
-@media (max-width:500px){
+@media screen and (max-width:500px){
   .header-bg-white{
     height: 50px;
 }
