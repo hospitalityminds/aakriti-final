@@ -12886,7 +12886,8 @@ span {
     background-position: 0px 0px;
   }
   .sub-header-portfolio-grid-1 {
-    background-position: -280px -150px;
+    background-position: -1px -10px;
+    background-repeat: no-repeat;
   }
   #royal_preloader {
     width: 100%;
@@ -12919,7 +12920,7 @@ span {
     background-position:-230px -150px;
   } */
   .sub-header-portfolio-grid-1 {
-    background-position: -450px -150px;
+    background-position: -410px -120px;
     background-repeat: no-repeat;
   }
   .sub-header-contact {
