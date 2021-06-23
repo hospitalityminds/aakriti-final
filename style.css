@@ -12920,6 +12920,7 @@ span {
   } */
   .sub-header-portfolio-grid-1 {
     background-position: -450px -150px;
+    background-repeat: no-repeat;
   }
   .sub-header-contact {
     background-position: -150px 0px;
